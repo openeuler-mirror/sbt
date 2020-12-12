@@ -45,7 +45,7 @@
 
 Name:                sbt
 Version:             %{sbt_version}
-Release:             1
+Release:             2
 Summary:             The simple build tool for Scala and Java projects
 
 BuildArch:           noarch
@@ -477,5 +477,8 @@ done
 %doc README.md LICENSE NOTICE
 
 %changelog
+* Sat Dec 12 2020 wangxiao <wangxiao65@huawei.com> - %{sbt_version}-2
+- delete unuse file
+
 * Tue Sep 1 2020 wangxiao <wangxiao65@huawei.com> - %{sbt_version}-1
 - package init
